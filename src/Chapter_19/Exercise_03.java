@@ -15,6 +15,7 @@ public class Exercise_03 {
         return setList;
     }
 
+    /** Testing */
     public static void main(String args[]) {
         ArrayList<Integer> intList = new ArrayList<>();
         intList.addAll(Arrays.asList(1, 2, 3, 4, 5, 1, 3, 5));
