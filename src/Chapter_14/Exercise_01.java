@@ -22,13 +22,13 @@ public class Exercise_01 extends Application{
         GridPane pane = new GridPane();
         pane.setAlignment(Pos.CENTER);
         pane.setPadding(new Insets(5, 5, 5, 5));
-        pane.setHgap(5.5);
-        pane.setVgap(5.5);
+        pane.setHgap(5);
+        pane.setVgap(5);
         
         // Create 4 smiley faces and add them to the pane
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
-                ImageView smile = new ImageView(new Image("Images/smile.png"));
+                ImageView smile = new ImageView(new Image("image/smile.png"));
                 // Scale smiley faces based on pane width                
                 smile.fitHeightProperty().bind(pane.widthProperty().divide(2.5));                
                 smile.fitWidthProperty().bind(pane.widthProperty().divide(2.5));
