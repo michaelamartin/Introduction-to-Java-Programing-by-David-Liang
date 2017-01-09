@@ -23,18 +23,17 @@ import javafx.stage.Stage;
  * interface and displays them in a text area. Use a linked list to store the 
  * numbers. Do not store duplicate numbers. Add the buttons Sort, Shuffle, and 
  * Reverse to sort, shuffle, and reverse the list.
+ * @authoer Michael Martin
  */
 public class Exercise_02 extends Application {
        
     @Override
-    public void start(Stage primaryStage) {        
-        
+    public void start(Stage primaryStage) {           
         // Create a scene and place it in the stage      
         Scene scene = new Scene(new CustomVBox());
         primaryStage.setTitle("Exercise 20.2"); // Set the stage title
         primaryStage.setScene(scene); // Place the scene in the stage
         primaryStage.show(); // Display the stage
-    
     }
     
     /** Creates a custom VBox */
